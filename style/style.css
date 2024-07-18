@@ -1,0 +1,32 @@
+/*font Roboto */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+header nav ul li a:hover {
+    color: #3498db;
+}
+
+.project-link {
+    color: #555;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.project-link:hover {
+    color: #3498db;
+}
